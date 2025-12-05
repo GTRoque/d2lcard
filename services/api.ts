@@ -1,6 +1,6 @@
 import { AuthResponse, Expense, User, CardSetting, Card, Family } from '../types';
 
-const API_URL = 'http://localhost:3001/api';
+const API_URL = '/api';
 
 const getHeaders = () => {
     const token = localStorage.getItem('token');
